@@ -101,7 +101,7 @@
         e.preventDefault();
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response =>{ alert('Success!',);
-                location.replace("index.html");
+                location.replace("home.html");
         })
             .catch(error => console.error('Error!', error.message))
     });
